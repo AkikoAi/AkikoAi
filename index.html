@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<!-- Nih bang colong aja html nya tapi tolong kasih author nya lah :> -->
+<html lang="id">
+	<head>
+		<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
+		<!--<meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1.0, user-scalable=0"/>-->
+	<!--	<meta name="description" content="Free rest api">-->
+<meta name="author" content="m hadi firmansya">
+	<link href="http://hadi-api.herokuapp.com/assets/image/16" rel="icon">
+	<title>Docs ~ hadi-api</title>
+	<meta property="title" content="Docs ~ hadi-api">
+	<meta property="keywords" content="free rest api, rest api, hadi api, api hadi, free api, api free">
+	<meta property="description" content="rest full api ini 100% gratis dan tidak menggunakan apikey">
+	<link href="https://indrijunanda.github.io/RuangAdmin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+	<link href="https://indrijunanda.github.io/RuangAdmin/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="https://indrijunanda.github.io/RuangAdmin/css/ruang-admin.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+	<meta property="og:title" content="REST API TOOLS">
+		<meta property="og:description" content="Free Rest Api">
+<meta property="og:image" content="http://hadi-api.herokuapp.com/assets/image/16">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/androidstudio.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body id="page-top" onload="pop()">
+	<div id="wrapper">
+		<!--SIDEBAR-->
+		
+<ul class="navbar-nav sidebar sidebar-light accordion bg-info" id="accordionSidebar" style="color:black;">
+	<a class="sidebar-brand d-flex align-items-center justify-content-center bg-info" id="settingbg3" href="javascript:void(0);" style="color:white;">
+		<div class="sidebar-brand-icon">
+	<img src="http://hadi-api.herokuapp.com/assets/image/16">
+</div>
+<div class="sidebar-brand-text mx-3">M hadi firmansya API's</div>
+</a>
+<hr class="sidebar-divider my-0">
+	<li class="nav-item active">
+		<a class="nav-link" href="#">
+		<i class="fas fa-fw fa-code"></i>
+		<span>Documentation</span></a>
+		</li>
+		<hr class="sidebar-divider">
+<div class="sidebar-heading">
+	Features
+	</div>
+	<li class="nav-item">
+		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBootstrap" aria-expanded="true" aria-controls="collapseBootstrap">
+		<i class="fas fa-fw fa-arrow-down"></i>
+		<span>Sosmed API</span>
+		</a>
+		<div id="collapseBootstrap" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
+<div class="bg-white py-2 collapse-inner rounded">
+	<h6 class="collapse-header">Sosmed Features</h6>
+	<a class="collapse-item" target="_blank" href="/api/ytvideo?url=LINK YT"> Yt video downloader </a>
+	<a class="collapse-item" target="_blank" href="/api/ytaudio?url=LINK YT"> Yt audio downloader </a>
+	<a class="collapse-item" target="_blank" href="/api/aboutyt?url=LINK YT"> Yt scraper </a>
+	<a class="collapse-item" target="_blank" href="/api/ytplay?q=dj bahagia"> YtPlay </a>
+	<a class="collapse-item" target="_blank" href="/api/pinterest?q=loli&page=1"> Pinterest </a>
+	<a class="collapse-item" target="_blank" href="/api/1cak?q=loli"> 1cak </a>
+	<a class="collapse-item" target="_blank" href="/api/githubstalk?username=mr-hadi"> Github stalk </a>
+	</div>
+	</div>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTextpro" aria-expanded="true" aria-controls="collapseTextpro">
+		<i class="fas fa-fw fa-text-height"></i>
+		<span>Textpro</span>
+		</a>
+		<div id="collapseTextpro" class="collapse" aria-labelledby="headingTextpro" data-parent="#accordionSidebar">
+<div class="bg-white py-2 collapse-inner rounded">
+	<h6 class="collapse-header">Textpro features</h6>
+	<a class="collapse-item" target="_blank" href="/api/textpro/tiktok"> Create Glitch Text Effect Style Tik Tok </a>
+	<a class="collapse-item" target="_blank" href="/api/textpro/neon-devil-wings"> Create neon devil wings text effect online free </a>
+	<a class="collapse-item" target="_blank" href="/api/textpro/futuristic-technology"> Create a futuristic technology neon light text effect </a>
+	<a class="collapse-item" target="_blank" href="/api/textpro/on-the-beach"> Create 3D realistic text effect on the beach online </a>
+	<a class="collapse-item" target="_blank" href="/api/textpro/3d-underwater-text"> 3D underwater text effect generator online </a>
+	<a class="collapse-item" target="_blank" href="/api/textpro/black-white-bear-mascot"> Online black and white bear mascot logo creation </a>
+	<a class="collapse-item" target="_blank" href="/api/textpro/on-the-beach"> 3d realistic text effect on the beach online </a>
+	</div>
+	</div>
+	</li>
+		<!--<li class="nav-item">
+		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEphoto" aria-expanded="true" aria-controls="collapseEphoto">
+		<i class="fas fa-fw fa-camera"></i>
+		<span>Ephoto360</span>
+		</a>
+		<div id="collapseEphoto" class="collapse" aria-labelledby="headingEphoto" data-parent="#accordionSidebar">
+<div class="bg-white py-2 collapse-inner rounded">
+	<h6 class="collapse-header">Ephoto360 features</h6>
+	<a class="collapse-item-" target="_blank" href="/api/tiktok"> Yt video downloader </a>
+	<a class="collapse-item-" target="_blank" href="/api/neon-devil-wings"> Github stalk </a>
+	</div>
+	</div>
+	</li>-->
+	<li class="nav-item">
+		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePhotoxy" aria-expanded="true" aria-controls="collapsePhotoxy">
+<i class="fas fa-fw fa-image"></i>
+<span>Photoxy</span>
+</a>
+<div id="collapsePhotoxy" class="collapse" aria-labelledby="headingPhotoxy" data-parent="#accordionSidebar">
+	<div class="bg-white py-2 collapse-inner rounded">
+		<h6 class="collapse-header">Photoxy Features</h6>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/manga-naruto?teks=MR.HADI"> make naruto banner online free </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/flaming-fire?teks=Mr.hadi"> realistic flaming text effect online </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/tiktok-effect?teks=Mr.hadi&teks2=Programer"> make tik tok text effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/metalic-gold?teks=Mr.hadi"> Create metallic text glow online </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/shadow-sky?teks=Mr.hadi"> Shadow text effect in the sky </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/teks-cup?teks=Mr.hadi"> write text on the cup </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/romantic-messages?teks=Mr.hadi"> romantic messages for your loved one </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/burn-paper?teks=Mr.hadi"> write text on burn paper </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/funny-cup?teks=Mr.hadi"> put text on the cup </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/love-messages?teks=Mr.hadi"> create a picture of love message </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/under-grass?teks=MR.hadi"> make quotes under grass </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/romantic-double?teks=Mr.hadi"> love text effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/coffee-cup?teks=Mr.hadi"> put any text in to coffee cup </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/wood-hearth?teks=Mr.hadi"> write art quote on wood heart </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/flower-hearth?teks=Mr.hadi"> text inside the flower heart </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/wooden-boards?teks=Mr.hadi"> writing on wooden boards </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/3d-summer?teks=Mr.hadi"> 3d summer text effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/wolf-metal?teks=Mr.hadi"> create a wolf metal text effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/nature-3d?teks=Mr.hadi"> make nature 3d text effects </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/underwater?teks=Mr.hadi"> creating an underwater ocean </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/golden-roses?teks=Mr.hadi"> yellow roses text </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/summer-nature-bg?teks=Mr.hadi"> create vector nature typography </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/typography-leaves?teks=Mr.hadi"> create a layered leaves typography text effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/under-fall?teks=Mr.hadi"> quotes under fall leaves </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/neon-glow?teks=Mr.hadi"> make smoky neon glow effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/rainbow-shine?teks=Mr.hadi"> rainbow shine text </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/army-camouflage-fabric?teks=Mr.hadi"> army camouflage fabric text effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/3d-glowing?teks=Mr.hadi"> create a 3d glowing text effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/vintage-text?teks=Mr.hadi"> vintage text style </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/honey-text?teks=Mr.hadi"> honey text effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/under-cube?teks=Mr.hadi"> 3d text effect under white cube </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/green-leaves?teks=Mr.hadi&font=PILIH-SENDIRI"> make great quotes on nature </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/gradient-avatar?teks=Mr.hadi"> gradient avatar text effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/glow-rainbow?teks=Mr.hadi"> glow rainbow effect generator </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/write-stars?teks=Mr.hadi"> write stars text on the night sky </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/fur-effect?teks=Mr.hadi"> fur text effect generator </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/crisp-chrome?teks=Mr.hadi"> create a crisp chromed text effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/embroidery-text?teks=Mr.hadi"> create embroidery text online </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/3d-rainbow-bg?teks=Mr.hadi"> create 3d text on rainbow online </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/striking-3d?teks=Mr.hadi"> striking 3d text effect online </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/summer-watermelon?teks=Mr.hadi"> watermelon text style </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/under-web-matrix?teks=Mr.hadi&background=PILIH-SENDIRI"> text under web matrix effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/multi-material?teks=Mr.hadi&background=PILIH-SENDIRI"> multi material text effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/butter-fly?teks=Mr.hadi"> butterfly text with reflection effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/wooden-3d-black?teks=Mr.hadi"> 3d wood text black style </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/banner-metal?teks=Mr.hadi&background=PILIH-SENDIRI"> create wallpaper with modern metal text </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/harry-poter?teks=Mr.hadi"> create harry potter text on horror background </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/neon-lights?teks=Mr.hadi"> illuminated metallic effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/8-bit-arcade?teks=Mr.hadi&teks2=Programer"> 8 bit text on arcade rift </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/put-coffee-cup?teks=Mr.hadi"> put your text on a coffee cup </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/luxury-royal?teks=Mr.hadi"> royal look text balloon effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/text-on-scary?teks=Mr.hadi"> text on scary cemetery gate </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/woodblock-effect?teks=Mr.hadi"> carved wood effect online </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/smoke-typography?teks=Mr.hadi"> smoke typography text effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/sweet-candy?teks=Mr.hadi"> sweet andy text online </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/on-the-silk?teks=Mr.hadi"> simple text on the silk </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/royal-patterns?teks=Mr.hadi"> bevel text between royal patterns </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/under-orchids?teks=Mr.hadi"> text under flower </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/flower-typography?teks=Mr.hadi"> flower typography text effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/party-neon?teks=Mr.hadi&background=PILIH-SENDIRI"> create party neon text effect </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/dark-metal?teks=Mr.hadi&background=PILIH-SENDIRI"> create dark metal text with special logo </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/csgo?teks=Mr.hadi&background=PILIH-SENDIRI"> great cs go banner </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/grafiti-text-cover?teks=Mr.hadi"> grafiti text cover </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/video-spells-name?teks=Mr.hadi&background=PILIH-SENDIRI"> make a video that spells your name </a>
+		<a class="collapse-item" target="_blank" href="/api/photoxy/battlefield-4-rising?teks=Mr.hadi&teks2=firmansya"> create battlefield 4 rising effect </a>
+		
+		</div>
+		</div>
+		</li>
+	<li class="nav-item">
+		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseForm" aria-expanded="true" aria-controls="collapseForm">
+<i class="fas fa-fw fa-book"></i>
+<span>Educational API</span>
+</a>
+<div id="collapseForm" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
+	<div class="bg-white py-2 collapse-inner rounded">
+		<h6 class="collapse-header">Educational Features</h6>
+		<a class="collapse-item" target="_blank" href="/api/kompas"> Kompas ( News ) </a>
+		<a class="collapse-item" target="_blank" href="/api/detik"> Detik ( News ) </a>
+		<a class="collapse-item" target="_blank" href="/api/corohelp?negara=id"> Corohelp ( News )</a>
+		<a class="collapse-item" target="_blank" href="/api/quran?no=1"> Quran </a>
+		<a class="collapse-item" target="_blank" href="/api/wiki?query=manusia"> Wikipedia </a>
+		<a class="collapse-item" target="_blank" href="/api/chord?q=indonesia raya"> Chord Gitar </a>
+		</div>
+		</div>
+		</li>
+		<li class="nav-item">
+<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAnime" aria-expanded="true" aria-controls="collapseAnime">
+	<i class="fas fa-fw fa-search"></i>
+	<span>Anime/Manga API</span>
+	</a>
+	<div id="collapseAnime" class="collapse" aria-labelledby="headingAnime" data-parent="#accordionSidebar">
+		<div class="bg-white py-2 collapse-inner rounded">
+<h6 class="collapse-header">Anime/Manga Features</h6>
+<a class="collapse-item" target="_blank" href="/api/hentai">Hentai</a>
+<a class="collapse-item" target="_blank" href="/api/dewabatch?q=kaguya-sama">Dewabatch</a>
+<a class="collapse-item" target="_blank" href="/api/anime">Anime</a>
+<a class="collapse-item" target="_blank" href="/api/yuri">Yuri</a>
+</div>
+</div>
+</li>
+<li class="nav-item">
+	<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseRandom" aria-expanded="true" aria-controls="collapseRandom">
+		<i class="fas fa-fw fa-bullseye"></i>
+		<span>Random API</span>
+		</a>
+		<div id="collapseRandom" class="collapse" aria-labelledby="headingRandom" data-parent="#accordionSidebar">
+<div class="bg-white py-2 collapse-inner rounded">
+	<h6 class="collapse-header">Random Features</h6>
+	<a class="collapse-item" target="_blank" href="/api/neko">Neko</a>
+	<a class="collapse-item" target="_blank" href="/api/neko2">Neko ( NSFW )</a>
+	<a class="collapse-item" target="_blank" href="/api/walpaperanime">Walpaperanime</a>
+	<a class="collapse-item" target="_blank" href="/api/wallpaperflare?query=loli">Wallpaperflare</a>
+	</div>
+	</div>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseNulis" aria-expanded="true" aria-controls="collapseNulis">
+<i class="fas fa-fw fa-certificate"></i>
+<span>Nulis API</span>
+</a>
+<div id="collapseNulis" class="collapse" aria-labelledby="headingNulis" data-parent="#accordionSidebar">
+	<div class="bg-white py-2 collapse-inner rounded">
+		<h6 class="collapse-header">Nulis Features</h6>
+		<a class="collapse-item" target="_blank" href="/api/nulis?teks=mr.hadi">Nulis</a>
+		<a class="collapse-item" target="_blank" href="/api/nulis2?teks=Nulis2 cretor: m hadi firmansya">Nulis2</a>
+		<a class="collapse-item" target="_blank" href="/api/nulis3?teks=Nulis3 cretor: m hadi firmansya">Nulis3</a>
+		<a class="collapse-item" target="_blank" href="/api/tolol?nama=nama target">Tolol certificate</a>
+		<a class="collapse-item" target="_blank" href="/api/card/welcome">Welcome</a>
+		<a class="collapse-item" target="_blank" href="/api/card/goodbye">Goodbye</a>
+		<a class="collapse-item" target="_blank" href="/api/card/welcome2">Welcome2</a>
+		<a class="collapse-item" target="_blank" href="/api/card/goodbye2">Goodbye2</a>
+		<a class="collapse-item" target="_blank" href="/api/card/verify">Verify</a>
+		<a class="collapse-item" target="_blank" href="/api/card/verify">Verify2</a>
+		<a class="collapse-item" target="_blank" href="/api/card/promote">Promote</a>
+		<a class="collapse-item" target="_blank" href="/api/card/demote">Demote</a>
+		</div>
+		</div>
+		</li>
+		<li class="nav-item">
+<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseOthers" aria-expanded="true" aria-controls="collapseOthers">
+	<i class="fas fa-fw fa-leaf"></i>
+	<span>Others API</span>
+	</a>
+	<div id="collapseOthers" class="collapse" aria-labelledby="headingOthers" data-parent="#accordionSidebar">
+		<div class="bg-white py-2 collapse-inner rounded">
+<h6 class="collapse-header">Others Features</h6>
+<a class="collapse-item" target="_blank" href="/api/iplookup?ip=IP"> Ip Lookup</a>
+<a class="collapse-item" target="_blank" href="/api/ssweb"> Screenshot web (SSWEB)</a>
+<a class="collapse-item" target="_blank" href="/api/tinyurl?url=https://youtube.com">Tinyurl ( PERSINGKAT URL )</a>
+<a class="collapse-item" target="_blank" href="/api/bitly?url=https://youtube.com">Bitly ( PERSINGKAT URL )</a>
+<a class="collapse-item" target="_blank" href="/api/shorturl?url=https://youtube.com">shorturl ( PERSINGKAT URL )</a>
+<a class="collapse-item" target="_blank" href="/api/cuttly?url=https://youtube.com">cuttly ( PERSINGKAT URL )</a>
+<a class="collapse-item" target="_blank" href="/api/artinama?nama=hadi">Artinama ( PRIMPON )</a>
+<a class="collapse-item" target="_blank" href="/api/pasangan?nama=hadi&nama2=hadi">Pasangan ( PRIMBON )</a>
+<a class="collapse-item" target="_blank" href="/api/font?teks=hadi">Font</a>
+<a class="collapse-item" target="_blank" href="/api/font2?teks=hadi">Font2</a>
+<a class="collapse-item" target="_blank" href="/api/infogempa">Infogempa</a>
+<a class="collapse-item" target="_blank" href="/api/hilih?teks=FREE REST API">Hilih</a>
+<a class="collapse-item" target="_blank" href="/api/halah?teks=FREE REST API">Halah</a>
+<a class="collapse-item" target="_blank" href="/api/heleh?teks=FREE REST API">Heleh</a>
+<a class="collapse-item" target="_blank" href="/api/huluh?teks=FREE REST API">Huluh</a>
+<a class="collapse-item" target="_blank" href="/api/base64?teks=FREE REST API&method=encrypt">Base64 ( ENCRYPT | DECRYPT )</a>
+<a class="collapse-item" target="_blank" href="/api/hex?teks=FREE REST API&method=encrypt">Hex ( ENCRYPT | DECRYPT )</a>
+<a class="collapse-item" target="_blank" href="/api/tts?text=FREE REST API&language=id">Tts ( TEXT TO SPEECH )</a>
+<a class="collapse-item" target="_blank" href="/api/darkjokes">darkjokes</a>
+</div>
+</div>
+</li>
+<hr class="sidebar-divider">
+	<div class="version" id="version-ruangadmin"></div>
+	</ul>
+	<!-- Sidebar -->
+		<div id="content-wrapper" class="d-flex flex-column">
+<div id="content">
+	<!-- TopBar -->
+		<nav class="navbar navbar-expand navbar-light bg-navbar topbar mb-4 static-top bg-info" id="SETTINGBG2">
+<button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3">
+	<i class="fa fa-bars"></i>
+	</button>
+	<ul class="navbar-nav ml-auto">
+		<li class="nav-item dropdown no-arrow mx-1">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="alertsDropdown" style="position: absolute;right: 30%;top: 2%" role="button">
+	<i class="fas uil-brush-alt fa-fw" style="font-size: 20px;"></i>
+	</a>
+	<div aria-labelledby="alertsDropdown" class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in">
+		<h6 class="dropdown-header">
+Tema Background
+</h6>
+<button class="dropdown-item d-flex align-items-center" onclick="gradientredbg()">
+	<div class="mr-3">
+		<div class="icon-circle bg-gradient-danger">
+</div>
+</div>
+<div>
+		Gradient Red Background
+		</div>
+		</button>
+<button class="dropdown-item d-flex align-items-center" onclick="bluebg()">
+	<div class="mr-3">
+		<div class="icon-circle bg-info">
+</div>
+</div>
+<div>
+		Blue Background (default)
+		</div>
+		</button>
+<button class="dropdown-item d-flex align-items-center" onclick="greenbg()">
+	<div class="mr-3">
+		<div class="icon-circle bg-success">
+</div>
+</div>
+<div>
+		Green Background
+		</div>
+		</button>
+		</div>
+	</li>
+	<!-- Message ingfo -->
+		<li class="nav-item dropdown no-arrow mx-1">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="alertsDropdown" role="button">
+	<i class="fas fa-bell fa-fw"></i>
+	<span class="badge badge-danger badge-counter">5+</span>
+	</a>
+	<div aria-labelledby="alertsDropdown" class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in">
+		<h6 class="dropdown-header">
+Alerts Center
+</h6>
+<a class="dropdown-item d-flex align-items-center">
+	<div class="mr-3">
+		<div class="icon-circle bg-warning">
+<i class="fas fa-exclamation-triangle text-white"></i>
+</div>
+</div>
+<div>
+	<div class="small text-gray-500">Feb 21, 2021</div>
+	Rest api ini Selesai
+	</div>
+	</a>
+	<a class="dropdown-item d-flex align-items-center">
+		<div class="mr-3">
+<div class="icon-circle bg-primary">
+	<i class="fas fa-file-alt text-white"></i>
+	</div>
+	</div>
+	<div>
+		<div class="small text-gray-500">Feb 10, 2021</div>
+		Apikey Telah Dihapus
+		</div>
+		</a>
+	<a class="dropdown-item d-flex align-items-center">
+		<div class="mr-3">
+<div class="icon-circle bg-warning">
+	<i class="fas fa-exclamation-triangle text-white"></i>
+	</div>
+	</div>
+	<div>
+		<div class="small text-gray-500">Mar 26, 2021</div>
+		Server Python Resmi milik hadi-api:<br>
+		server-hadi-api.herokuapp.com (maintenance)
+		</div>
+		</a>
+	<a class="dropdown-item d-flex align-items-center" href="/api#info" style="color: gray;">
+		<div class="mr-3">
+<div class="icon-circle bg-primary">
+	<i class="fas fa-file-alt text-white"></i>
+	</div>
+	</div>
+	<div>
+		<div class="small text-gray-500">Mar 30, 2021</div>
+			information about your connection click here
+		</div>
+		</a>
+		</div>
+<!--		<div class="topbar-divider d-none d-sm-block"></div>-->
+		<li class="nav-item dropdown no-arrow">
+<a class="nav-link dropdown-toggle" href="javascript:void(0);" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	<div class="topbar-divider d-none d-sm-block"></div><img alt="m hadi firmansya" class="img-profile rounded-circle" src="http://hadi-api.herokuapp.com/assets/image/16" style="max-width: 100px">
+	<span class="ml-2 d-none d-lg-inline text-white small">M HADI FIRMANSYA</span>
+	</a>
+	</li>
+	<style>
+									.popup{
+										display: none;
+										position: fixed;
+										z-index: 1;
+										left: 0;
+										right: 0;
+										width: 100%;
+										height: 100%;
+										overflow: auto;
+										background-color: rgba(0,0,0,0.4); 
+									}
+									.popup > .popup-content{
+										border-radius: 5px;
+										background-color: #fefefe;
+										margin: 28% auto;
+										padding: 50px 0 50px 0;
+										border: 1px solid #888;
+										width: 80%;
+										text-align: center;
+									}
+									.popup > .popup-content > a{
+									text-align: center;
+									display: block;
+									}
+									.popup > .popup-content > a > img{
+										width:120px;
+										border: 1px solid lime;
+										height:120px;
+										object-fit:cover;
+										border-radius:50%;
+									}
+									.popup > .popup-content > button#close{
+										border-radius: 5px;
+										margin-top: 20px;
+										background: lime;
+										text-align: center;
+										color: white;
+										width: 45px;
+										height: 35px;
+										border: 1px solid green;
+									}
+									.popup > .popup-content > button#close:hover{
+										color: black;
+										border: 1px solid lime;
+										background: green;
+									}
+								</style>
+								<div class='popup'>
+									<div class='popup-content'>
+										<a href="javascript:void(0);"><img src="https://i.pinimg.com/736x/03/ad/09/03ad0993a80eb93de456d521f3cc7494.jpg" alt="image"></a><br>
+										WELCOME TO MY REST API
+										<br><button id="close">OK</button>
+									</div>
+								</div>
+								<script>
+								function pop(){
+									document.querySelector('div.popup').style.display = "block"
+								}
+								document.querySelector('button#close').onclick = function (){
+									document.querySelector('div.popup').style.display = 'none'
+								}
+								</script>
+	</ul>
+	
+	</nav>
+	<!-- Topbar -->
+		<div class="col-xl-3 col-md-6 mb-4">
+<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+	<div class="card-body">
+		<div class="row no-gutters align-items-center">
+<div class="col mr-2">
+	<div class="text-xs font-weight-bold text-uppercase mb-1">Total Visitor</div>
+	<div id="LIAT" class="h5 mb-0 mr-3 font-weight-bold text-gray-800">0</div>
+		<div class="mt-2 mb-0 text-muted text-xs">
+<span class="text-success mr-2"><i class="fas fa-arrow-up" id="per">0,00%</i></span>
+<script>
+	//var _0x1412=["\x4C\x49\x41\x54","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x70\x65\x72","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x76\x61\x6C\x75\x65","\x25","\x74\x68\x65\x6E","\x6A\x73\x6F\x6E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x61\x70\x69\x2E\x63\x6F\x75\x6E\x74\x61\x70\x69\x2E\x78\x79\x7A\x2F\x68\x69\x74\x2F\x68\x61\x64\x69\x2D\x61\x70\x69\x2D\x76\x69\x65\x77\x65\x72\x2F"];const viewer=document[_0x1412[1]](_0x1412[0]);const persen=document[_0x1412[1]](_0x1412[2]);fetch(_0x1412[8])[_0x1412[6]]((_0xbf23x3)=>{return _0xbf23x3[_0x1412[7]]()})[_0x1412[6]]((_0xbf23x3)=>{viewer[_0x1412[3]]= _0xbf23x3[_0x1412[4]];persen[_0x1412[3]]= _0xbf23x3[_0x1412[4]]/ 100+ _0x1412[5]})
+	</script>
+	<span>from 100%</span>
+	</div>
+	</div>
+	<div class="col-center">
+		<i class="fas fa-users fa-2x text-info" id="settingbg5"></i>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		<section class="section">
+<div class="container">
+	<div class="columns">
+		<div class="column is-offset-4 is-4">
+</div>
+</div>
+</div>
+</section>
+<!-- Container Fluid-->
+	<div class="container-fluid" id="container-wrapper">
+		<!-- Attention -->
+<div id="demo" class="alert alert-info alert-dismissible" role="alert">
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		<span id="demo" aria-hidden="true"></span>
+		</button>
+		<div id="browser_info"></div>
+		<script>
+		var _0xb942=["\x4A\x61\x6E\x75\x61\x72\x69","\x46\x65\x62\x72\x75\x61\x72\x69","\x4D\x61\x72\x65\x74","\x41\x70\x72\x69\x6C","\x4D\x65\x69","\x4A\x75\x6E\x69","\x4A\x75\x6C\x69","\x41\x67\x75\x73\x74\x75\x73","\x53\x65\x70\x74\x65\x6D\x62\x65\x72","\x4F\x6B\x74\x6F\x62\x65\x72","\x4E\x6F\x76\x65\x6D\x62\x65\x72","\x44\x65\x73\x65\x6D\x62\x65\x72","\x64\x69\x76\x23\x62\x72\x6F\x77\x73\x65\x72\x5F\x69\x6E\x66\x6F","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","","\x3C\x70\x3E\x3C\x62\x3E\x42\x72\x6F\x77\x73\x65\x72\x20\x43\x6F\x64\x65\x4E\x61\x6D\x65\x3C\x2F\x62\x3E\x3A\x20","\x61\x70\x70\x43\x6F\x64\x65\x4E\x61\x6D\x65","\x3C\x2F\x70\x3E","\x3C\x70\x3E\x3C\x62\x3E\x42\x72\x6F\x77\x73\x65\x72\x20\x4E\x61\x6D\x65\x3C\x2F\x62\x3E\x3A\x20","\x61\x70\x70\x4E\x61\x6D\x65","\x3C\x70\x3E\x3C\x62\x3E\x43\x6F\x6F\x6B\x69\x65\x73\x20\x45\x6E\x61\x62\x6C\x65\x64\x3C\x2F\x62\x3E\x3A\x20","\x63\x6F\x6F\x6B\x69\x65\x45\x6E\x61\x62\x6C\x65\x64","\x3C\x70\x3E\x3C\x62\x3E\x42\x72\x6F\x77\x73\x65\x72\x20\x4F\x6E\x6C\x69\x6E\x65\x3C\x2F\x62\x3E\x3A\x20","\x6F\x6E\x4C\x69\x6E\x65","\x3C\x70\x3E\x3C\x62\x3E\x50\x6C\x61\x74\x66\x6F\x72\x6D\x3C\x2F\x62\x3E\x3A\x20","\x70\x6C\x61\x74\x66\x6F\x72\x6D","\x3C\x70\x3E\x3C\x62\x3E\x55\x73\x65\x72\x2D\x41\x67\x65\x6E\x74\x3C\x2F\x62\x3E\x3A\x20","\x75\x73\x65\x72\x41\x67\x65\x6E\x74","\x67\x65\x74\x48\x6F\x75\x72\x73","\x67\x65\x74\x4D\x69\x6E\x75\x74\x65\x73","\x67\x65\x74\x53\x65\x63\x6F\x6E\x64\x73","\x67\x65\x74\x44\x61\x74\x65","\x67\x65\x74\x4D\x6F\x6E\x74\x68","\x67\x65\x74\x46\x75\x6C\x6C\x59\x65\x61\x72","\x53\x65\x6C\x61\x6D\x61\x74\x20\x70\x61\x67\x69","\x53\x65\x6C\x61\x6D\x61\x74\x20\x73\x69\x61\x6E\x67","\x53\x65\x6C\x61\x6D\x61\x74\x20\x73\x6F\x72\x65","\x53\x65\x6C\x61\x6D\x61\x74\x20\x6D\x61\x6C\x61\x6D","\x48\x61\x69","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x44\x61\x74\x65\x20\x3A\x20","\x3A","\x7E","\x2D","\x20\x7E\x3E\x20"];arrBulan= [_0xb942[0],_0xb942[1],_0xb942[2],_0xb942[3],_0xb942[4],_0xb942[5],_0xb942[6],_0xb942[7],_0xb942[8],_0xb942[9],_0xb942[10],_0xb942[11]];let text_el=document[_0xb942[13]](_0xb942[12]);setInterval(()=>{var _0x5723x2=_0xb942[14];_0x5723x2+= _0xb942[15]+ navigator[_0xb942[16]]+ _0xb942[17];_0x5723x2+= _0xb942[18]+ navigator[_0xb942[19]]+ _0xb942[17];_0x5723x2+= _0xb942[20]+ navigator[_0xb942[21]]+ _0xb942[17];_0x5723x2+= _0xb942[22]+ navigator[_0xb942[23]]+ _0xb942[17];_0x5723x2+= _0xb942[24]+ navigator[_0xb942[25]]+ _0xb942[17];_0x5723x2+= _0xb942[26]+ navigator[_0xb942[27]]+ _0xb942[17];var _0x5723x3= new Date();var _0x5723x4=_0x5723x3[_0xb942[28]]();var _0x5723x5=_0x5723x3[_0xb942[29]]();var _0x5723x6=_0x5723x3[_0xb942[30]]();var _0x5723x7=_0x5723x3[_0xb942[31]]();var _0x5723x8=_0x5723x3[_0xb942[32]]();var _0x5723x9=_0x5723x3[_0xb942[33]]();var _0x5723xa=arrBulan[_0x5723x8];if(_0x5723x4> 1&& _0x5723x4< 11){var _0x5723xb=_0xb942[34]}else {if(_0x5723x4> 10&& _0x5723x4< 15){var _0x5723xb=_0xb942[35]}else {if(_0x5723x4> 14&& _0x5723x4< 18){var _0x5723xb=_0xb942[36]}else {if(_0x5723x4> 17&& _0x5723x4< 24){var _0x5723xb=_0xb942[37]}else {var _0x5723xb=_0xb942[38]}}}};text_el[_0xb942[39]]= _0x5723x2+ _0xb942[40]+ _0x5723x4+ _0xb942[41]+ _0x5723x5+ _0xb942[41]+ _0x5723x6+ _0xb942[42]+ _0x5723x7+ _0xb942[43]+ _0x5723xa+ _0xb942[43]+ _0x5723x9+ _0xb942[44]+ _0x5723xb},250)
+		</script>
+<br>
+	</div>
+	<style>
+		.animated {
+	background: #fff;
+	color: #F00;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	font-size: 25px;
+	font-family: Arial Black, Gadget, sans-serif;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #FF0000;
+	-webkit-animation: animatedBackground_c 2s infinite alternate;
+}
+
+@keyframes animatedBackground_c {
+	0% {-webkit-text-stroke-color: #ff8b00}
+	10% {-webkit-text-stroke-color: #e8ff00}
+	20% {-webkit-text-stroke-color: #5dff00}
+	30% {-webkit-text-stroke-color: #00ff2e}
+	40% {-webkit-text-stroke-color: #00ffb9}
+	50% {-webkit-text-stroke-color: #00b9ff}
+	60% {-webkit-text-stroke-color: #002eff}
+	70% {-webkit-text-stroke-color: #5d00ff}
+	80% {-webkit-text-stroke-color: #e800ff}
+	90% {-webkit-text-stroke-color: #ff008b}
+	100% {-webkit-text-stroke-color: #ff0000}
+}
+.mengetik
+{
+	font-size: 15px;
+	width: 250px;
+	white-space:nowrap;
+	overflow:hidden;
+	-webkit-animation: ketik 5s steps(50, end);
+	animation: ketik 5s steps(50, end);
+}
+
+@keyframes ketik{
+		from { width: 0; }
+}
+
+@-webkit-keyframes ketik{
+		from { width: 0; }
+}
+	</style>
+	<!-- information -->
+				<div class="row" id="info">
+			<div class="col-lg-6">
+				<div class="card mb-4">
+					<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+						<h1 class="animated" >network information</h1>
+						</div>
+						<div class="card-body">
+							<div class="text-xs font-weight-bold text-uppercase mb-1">Isp</div>
+							<div id="isp" class="h5 mb-0 mr-3 font-weight-bold text-gray-800">0.0.0.0</div>
+							<div class="text-xs font-weight-bold text-uppercase mb-1" style="padding: 20px 0 0 0;">Ip Address</div>
+							<div id="ip" class="h5 mb-0 mr-3 font-weight-bold text-gray-800">0.0.0.0</div>
+							<div class="text-xs font-weight-bold text-uppercase mb-1" style="padding: 20px 0 0 0;">Country</div>
+							<div id="country" class="h5 mb-0 mr-3 font-weight-bold text-gray-800">0.0.0.0</div>
+							<div class="text-xs font-weight-bold text-uppercase mb-1" style="padding: 20px 0 0 0;">Timezone</div>
+							<div id="timezone" class="h5 mb-0 mr-3 font-weight-bold text-gray-800">0.0.0.0</div>
+							<script>
+								//var _0x4f74=["\x64\x69\x76\x23\x69\x73\x70","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x64\x69\x76\x23\x69\x70","\x64\x69\x76\x23\x63\x6F\x75\x6E\x74\x72\x79","\x64\x69\x76\x23\x74\x69\x6D\x65\x7A\x6F\x6E\x65","\x2D","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x69\x73\x70","\x30\x2E\x30\x2E\x30\x2E\x30","\x71\x75\x65\x72\x79","\x63\x6F\x75\x6E\x74\x72\x79","\x74\x69\x6D\x65\x7A\x6F\x6E\x65","\x74\x68\x65\x6E","\x6A\x73\x6F\x6E","\x68\x74\x74\x70\x3A\x2F\x2F\x69\x70\x2D\x61\x70\x69\x2E\x63\x6F\x6D\x2F\x6A\x73\x6F\x6E\x2F"];qisp= document[_0x4f74[1]](_0x4f74[0]);qip= document[_0x4f74[1]](_0x4f74[2]);qcountry= document[_0x4f74[1]](_0x4f74[3]);qtime= document[_0x4f74[1]](_0x4f74[4]);var ip,isp=_0x4f74[5];fetch(_0x4f74[14])[_0x4f74[12]]((_0x1f19x3)=>{return _0x1f19x3[_0x4f74[13]]()})[_0x4f74[12]]((_0x1f19x3)=>{qisp[_0x4f74[6]]= _0x1f19x3[_0x4f74[7]]|| _0x4f74[8];qip[_0x4f74[6]]= _0x1f19x3[_0x4f74[9]]|| _0x4f74[8];qcountry[_0x4f74[6]]= _0x1f19x3[_0x4f74[10]]|| _0x4f74[8];qtime[_0x4f74[6]]= _0x1f19x3[_0x4f74[11]]|| _0x4f74[8]})
+							</script>
+							</div>
+						</div>
+					</div>
+					</div>
+	<!-- Attention -->
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="card mb-4">
+					<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+						<h1 class="animated">Feature Available</h1>
+						</div>
+						<div class="card-body">
+							<li class="mengetik"> Tts </li>
+							<li class="mengetik"> Hex </li>
+							<li class="mengetik"> 1Cak </li>
+							<li class="mengetik"> Detik ( News )</li>
+							<li class="mengetik"> Hilih </li>
+							<li class="mengetik"> Halah </li>
+							<li class="mengetik"> Heleh </li>
+							<li class="mengetik"> Huluh </li>
+							<li class="mengetik"> Font2 </li>
+							<li class="mengetik"> Font </li>
+							<li class="mengetik"> Yuri </li>
+							<li class="mengetik"> Ssweb </li>
+							<li class="mengetik"> Neko </li>
+							<li class="mengetik"> Neko ( NSFW )</li>
+							<li class="mengetik"> Tolol (certificate) </li>
+							<li class="mengetik"> Nulis </li>
+							<li class="mengetik"> Nulis2 </li>
+							<li class="mengetik"> Nulis3 </li>
+							<li class="mengetik"> Quran </li>
+							<li class="mengetik"> Brainly </li>
+							<li class="mengetik"> Photoxy (IN BAR) </li>
+							<li class="mengetik"> Anime </li>
+							<li class="mengetik"> Shorturl </li>
+							<li class="mengetik"> Cuttly </li>
+							<li class="mengetik"> Bitly </li>
+							<li class="mengetik"> Verify </li>
+							<li class="mengetik"> Verify2 </li>
+							<li class="mengetik"> Ip Lookup </li>
+							<li class="mengetik"> Chord Gitar </li>
+							<li class="mengetik"> Pinterest </li>
+							<li class="mengetik"> Wikipedia </li>
+							<li class="mengetik"> Kompas ( News )</li>
+							<li class="mengetik"> darkjokes </li>
+							<li class="mengetik"> Dewabatch </li>
+							<li class="mengetik"> Ytplay </li>
+							<li class="mengetik"> Tinyurl </li>
+							<li class="mengetik"> Ig stalk ( REPAIR )</li>
+							<li class="mengetik"> Base64 </li>
+							<li class="mengetik"> Corohelp </li>
+							<li class="mengetik"> Goodbye </li>
+							<li class="mengetik"> Goodbye2 </li>
+							<li class="mengetik"> Textpro </li>
+							<!--<li class="mengetik"> Ephoto360 </li>-->
+							<li class="mengetik"> Artinama </li>
+							<li class="mengetik"> Welcome</li>
+							<li class="mengetik"> Promote</li>
+							<li class="mengetik"> Demote</li>
+							<li class="mengetik"> Welcome2</li>
+							<li class="mengetik"> WallpaperFlare </li>
+							<li class="mengetik"> Pasangan </li>
+							<li class="mengetik"> Info gempa </li>
+							<li class="mengetik"> Github stalk </li>
+							<li class="mengetik"> Walpaper anime </li>
+							<li class="mengetik"> Yt audio downloader </li>
+							<li class="mengetik"> Yt video downloader</li>
+							<li class="mengetik"> New Features Coming Soon </li>
+							<h6 id="total-menu"><script>document.querySelector('h6#total-menu').innerHTML = `<br>TOTAL MENU: ${document.querySelectorAll('a.collapse-item[target=_blank]').length}`</script></h6>
+							<h6><br>Api ini Tidak membutuhkan apiKey<br></h6>
+							<h6><br>Jika anda menemukan bug <i class="fa fa-bug"></i> langsung lapor ke <a href="https://wa.me/628990911211">Saya</a> Oke!</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			<!-- thank to -->
+			<div class="row">
+			<div class="col-lg-6">
+				<div class="card mb-4">
+					<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+						<h1 class="animated" >Thank To</h1>
+						</div>
+						<div class="card-body">
+							<li class="mengetik"> Allah SWT </li>
+							<li class="mengetik"> My parents </li>
+							<li class="mengetik"> Heroku </li>
+							<li class="mengetik"> Fajar </li>
+							<li class="mengetik"> Radya </li>
+							<li class="mengetik"> Fauzy </li>
+							<li class="mengetik"> Hazn </li>
+							</div>
+						</div>
+					</div>
+					</div>
+					</div>
+			<!-- Footer -->
+				<footer class="sticky-footer bg-info" id="SettingBg4">
+					<div class="container my-auto">
+						<div class="copyright text-center my-auto">
+							<span>copyright &copy; <script> 
+								var _0xcb52=["\x67\x65\x74\x46\x75\x6C\x6C\x59\x65\x61\x72","\x77\x72\x69\x74\x65"];document[_0xcb52[1]]( new Date()[_0xcb52[0]]())
+								</script>
+								<b><a href="https://wa.me/628990911211/" target="_blank">M Hadi Firmansya</a></b>
+								</span>
+								</div>
+							</div>
+							</footer>
+							</div>
+							</div>
+						<!-- Scroll to top -->
+					
+							<a class="scroll-to-top rounded" href="#page-top">
+								<i class="fas fa-angle-up"></i>
+								</a>
+								<audio id="audioNotifikasi">
+								 <!-- <source type="audio/mpeg">-->
+								</audio>
+								<script type="text/javascript">
+								/*[{       Function New        }]*/
+								this.list = ['https://youtu.be/NBrPBSBbong']
+								fetch('http://hadi-api.herokuapp.com/api/ytaudio?url='+this.list[Math.floor(Math.random() * this.length)]).then(res=>res.json()).then(async res=>{
+									await document.querySelector("audio#audioNotifikasi").setAttribute('src',res.result.download_audio)
+									this.teks = await `<==========• INFO •==========>\nTITLE: ${res.result.title}\nVIEWER: ${res.result.viewer}\nLIKE: ${res.result.like}\nDISLIKE: ${res.result.dislike}\n<=====• PUTAR SEKARANG? •=====>`
+									this.agree = await confirm(teks)
+								}).then(async ()=>{
+									if(this.agree==true){
+										this.play = setInterval(()=>{
+											document.querySelector('audio#audioNotifikasi').play()
+											if(document.querySelector('audio#audioNotifikasi').paused==false){
+												clearInterval(this.play)
+											}
+										},800)
+									}
+								})
+								</script>
+								<script src="http://hadi-api.herokuapp.com/assets/tema.js"></script>
+								<script src="https://indrijunanda.github.io/RuangAdmin/vendor/jquery/jquery.min.js"></script>
+								<script src="https://indrijunanda.github.io/RuangAdmin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+								<script src="https://indrijunanda.github.io/RuangAdmin/vendor/jquery-easing/jquery.easing.min.js"></script>
+								<script src="https://indrijunanda.github.io/RuangAdmin/js/ruang-admin.min.js"></script>
+								</div>
+								</body>
+								</html>
+							
