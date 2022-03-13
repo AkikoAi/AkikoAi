@@ -4,7 +4,7 @@
 </a>
 </p>
 
-[![GitHub Hadi-Api](https://img.shields.io/github/followers/hadi-api?label=follow&style=social)](https://github.com/Hadi-Api)
+[![GitHub Hadi-Api](https://img.shields.io/github/followers/hadi-api?label=follow&style=social)](https://hadi-api.herokuapp.com/api)
 
 <h1 align="center">hello, my name is HADI 👋</h1>
 
