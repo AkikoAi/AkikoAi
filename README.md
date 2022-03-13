@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://hadi-api.herokuapp.com">
+<a href="https://hadi-api.herokuapp.com/api">
 	<img src="https://i.pinimg.com/originals/6c/b2/27/6cb227b9d016245847b262d067f3141c.jpg" alt="My waifu ~shirakami fubuki" />
 </a>
 </p>
@@ -13,6 +13,6 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/hadi-api"><img src="https://github-readme-stats.vercel.app/api?username=hadi-api&hide_border=true&show_icons=true" alt="Hadi-Api's Github Stats"></a>
+  <a href="https://hadi-api.herokuapp.com/api"><img src="https://github-readme-stats.vercel.app/api?username=hadi-api&hide_border=true&show_icons=true" alt="Hadi-Api's Github Stats"></a>
 </p>
 
