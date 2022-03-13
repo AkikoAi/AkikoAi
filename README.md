@@ -14,11 +14,11 @@ You can click the Preview link to take a look at your changes.
 </a>
 </p>
 
-<h1 align="center">
+<h1 align="center" style='color:cyan'>
 	hello, my name is HADI 👋
 </h1>
 
-<h1 align="center">
+<h1 align="center" style='color:cyan'>
 	Welcome to my GitHub profile
 </h1>
 
