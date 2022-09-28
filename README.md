@@ -4,7 +4,7 @@
 </a>
 </p>
 
-[![GitHub Hadi-Api](https://img.shields.io/github/followers/hadi-api?label=follow&style=social)](https://hadi-api.herokuapp.com/api)
+[![GitHub Hadi-Api](https://img.shields.io/github/followers/hadi-api?label=follow&style=social)](https://hadi-api.cf/api)
 
 <h1 align="center">hello, my name is HADI 👋</h1>
 
@@ -13,6 +13,5 @@
 </h1>
 
 <p align="center">
-  <a href="https://hadi-api.herokuapp.com/api"><img src="https://github-readme-stats.vercel.app/api?username=hadi-api&hide_border=true&show_icons=true" alt="Hadi-Api's Github Stats"></a>
+  <a href="https://hadi-api.cf/api"><img src="https://github-readme-stats.vercel.app/api?username=hadi-api&hide_border=true&show_icons=true" alt="Hadi-Api's Github Stats"></a>
 </p>
-
