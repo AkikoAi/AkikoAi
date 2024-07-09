@@ -11,7 +11,3 @@
 <h1 align="center">
 	Welcome to my GitHub profile
 </h1>
-
-<p align="center">
-  <a href="https://hadi-api.cf/api"><img src="https://github-readme-stats.vercel.app/api?username=hadi-api&hide_border=true&show_icons=true" alt="Hadi-Api's Github Stats"></a>
-</p>
